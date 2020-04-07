@@ -1,14 +1,21 @@
-# instagram-app-react-graphql
+# musiCShare-app-react-graphql-firebase
+
+# Check it out https://musicshare.netlify.com/
 
 ## Routes (Pages)
 
-- / (songs feeds page)
+- / (songs feed page)
 
-Components:
+Components: (feed & song)
 
 - FeedPage [Display Songs Posts]
 - FeedPageSkeleton [Dummy Skeleton Page]
 - FeedSideSuggestions [List of followers]
+- FeedPostList
+- AddSong
+- QueuedSongList
+- SongItem
+- SongPlayer
 
 - /explore (explore page)
 
@@ -21,10 +28,11 @@ Components:
 
 Components
 
-- Song
-- SongSkeleton
-- SongModal
-- MoreSongsFromUser
+- Post
+- PostSkeleton
+- PostModal
+- MorePostsFromUser
+- PostSongPlayer
 
 * notification
 

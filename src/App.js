@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import { Switch, Route, useHistory, useLocation } from "react-router-dom";
-//import SongPage from './pages/song';
 import FeedPage from "./pages/feed";
 import ProfilePage from "./pages/profile";
 import ExplorePage from "./pages/explore";
@@ -30,7 +29,6 @@ function App() {
   return (
     <>
       <Switch location={isModalOpen ? prevLocation.current : location}>
-        {/* <Route exact path="/" component={SongPage} /> */}
         <Route exact path="/" component={FeedPage} />
         <Route path="/explore" component={ExplorePage} />
         <Route exact path="/:username" component={ProfilePage} />
