@@ -1,6 +1,6 @@
 # musiCShare-app-react-graphql-firebase
 
-# Check it out https://musicshare.netlify.com/
+# Check it out https://musicshare.netlify.com/ or https://musicshare.now.sh
 
 ## Routes (Pages)
 

@@ -23,4 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 tbd
-now.json
+# now.json
+instructions.md
+.now
